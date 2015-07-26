@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TourSnap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Capture</string>
+    <string name="hintDes">Description</string>
+    <string name="hintLoc">Location</string>
+    <string name="btnCapture">Capture</string>
+    <string name="btnUpload">Save</string>
+
+    <string name="btnDelete">Delete</string>
+
+    <string name="btnSave">Save</string>
+    <string name="btnBack">Back</string>
+    <string name="btnAddLocation">Add Location</string>
+    <string name="title_activity_capture_screen">CaptureScreen</string>
+    <string name="title_activity_photo_list">PhotoList</string>
+    <string name="title_activity_photo_details">PhotoDetails</string>
+
+</resources>

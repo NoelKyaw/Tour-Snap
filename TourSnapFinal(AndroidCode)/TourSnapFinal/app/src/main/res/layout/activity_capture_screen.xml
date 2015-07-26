@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.kay.toursnap.CaptureScreen"
+    android:text="Upload Snap"
+    >
+
+    <LinearLayout
+        android:id="@+id/lin_img"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/lin_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lin_img"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtdescription"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintDes"
+            android:textSize="13sp"
+            android:layout_gravity="start"
+            />
+
+        <TextView
+            android:id="@+id/txtMap"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintLoc"
+            android:textSize="13sp"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:layout_gravity="start"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/lin_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lin_des"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAddLocation"
+            android:id="@+id/btnAddLocation"
+            android:layout_gravity="end"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnUpload"
+            android:id="@+id/btnUpload"
+            android:layout_gravity="end"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/lin_img"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/lin_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lin_img"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtfname"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="13sp"
+            android:layout_gravity="start"
+            />
+
+        <TextView
+            android:id="@+id/txtdescription_photo"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+
+            android:textSize="15sp"
+            android:layout_gravity="start"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtLoc_photo"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+
+            android:textSize="15sp"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:layout_gravity="start"
+
+            android:textStyle="bold|italic"
+            android:textColor="#ff62ceff" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
